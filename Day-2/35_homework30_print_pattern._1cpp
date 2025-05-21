@@ -1,0 +1,23 @@
+#include <iostream>
+using namespace std;
+
+int main(){
+	//HW: Print Pattern
+	// 12345
+	// 2345
+	// 345
+	// 45
+	// 5
+	// n=5;
+
+	int num;
+	cin>>num;
+
+	for(int i=1;i<=num;i++){
+		for(int j=i;j<=num;j++){
+			cout<<j;
+		}
+		cout<<endl;
+	}
+	return 0;
+}
