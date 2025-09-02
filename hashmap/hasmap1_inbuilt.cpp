@@ -17,6 +17,8 @@ int main() {
 
 
 	for(auto element: m){
+		//element.first		==> key 
+		//element.second	==> value
 		cout<<element.first <<" -> "<< element.second<<endl;
 	}
 	return 0;
