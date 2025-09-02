@@ -11,9 +11,13 @@ int main() {
 	for(int i=0;i<n;i++){
 		m[arr[i]]++;
 	}
-	cout<<m[1]<<" ";
-	cout<<m[2]<<" ";
-	cout<<m[8]<<" ";
+	//cout<<m[1]<<" ";
+	//cout<<m[2]<<" ";
+	//cout<<m[8]<<" ";
 
+
+	for(auto element: m){
+		cout<<element.first <<" -> "<< element.second<<endl;
+	}
 	return 0;
 }
